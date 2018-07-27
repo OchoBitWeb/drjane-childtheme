@@ -4,10 +4,10 @@
   border-color: $border;
 
   hr {
-    border-top-color: $border;
+    border-top-color: darken($border, 5%);
   }
 
   .alert-link {
-    color: $color;
+    color: darken($color, 10%);
   }
 }
