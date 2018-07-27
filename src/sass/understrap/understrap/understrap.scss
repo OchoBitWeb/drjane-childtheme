@@ -13,11 +13,11 @@
 }
 
 // Separate sticky wrapper from main content
-.wrapper#wrapper-sticky { border-bottom: 1px solid $gray-light; }
+.wrapper#wrapper-sticky { border-bottom: 1px solid $gray-200; }
 
 // Adding some contrast background color to footer full widget
 #wrapper-footer-full,
-#wrapper-static-hero { background-color: $gray-lighter; }
+#wrapper-static-hero { background-color: $gray-200; }
 
 // Necessary WP classes
 .wp-caption { font-size: inherit; }
@@ -70,15 +70,15 @@ a.skip-link {
 }
 
 .bg-primary .dropdown-menu {
-background-color:$brand-primary;
+background-color:$gray-500;
 }
 
 .bg-success .dropdown-menu {
-background-color:$brand-success;
+background-color:$gray-500;
 }
 
 .bg-inverse .dropdown-menu {
-background-color:$brand-inverse;
+background-color:$gray-500;
 }
 
 // Fixing BS dropdown in a dropdown
@@ -102,11 +102,11 @@ background-color:$brand-inverse;
   width: 100%;
   a.nav-link{
     margin:0px;
-    padding:$nav-link-padding;
+    padding: 5px;
 
   }
   a.nav-link:hover { 
-    background-color: $brand-primary; 
+    background-color: $gray-500; 
   }
 }
 

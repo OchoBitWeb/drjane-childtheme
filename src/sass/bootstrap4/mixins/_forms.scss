@@ -46,7 +46,7 @@
     font-size: $tooltip-font-size;
     line-height: $line-height-base;
     color: color-yiq($color);
-    background-color: rgba($color, $tooltip-opacity);
+    background-color: $color;
     @include border-radius($tooltip-border-radius);
   }
 
@@ -58,7 +58,7 @@
 
       &:focus {
         border-color: $color;
-        box-shadow: 0 0 0 $input-focus-width rgba($color, .25);
+        box-shadow: 0 0 0 $input-focus-width $color;
       }
 
       ~ .#{$state}-feedback,
@@ -99,7 +99,7 @@
         color: $color;
 
         &::before {
-          background-color: lighten($color, 25%);
+          background-color: $color;
         }
       }
 
@@ -110,13 +110,13 @@
 
       &:checked {
         ~ .custom-control-label::before {
-          @include gradient-bg(lighten($color, 10%));
+          @include gradient-bg($color);
         }
       }
 
       &:focus {
         ~ .custom-control-label::before {
-          box-shadow: 0 0 0 1px $body-bg, 0 0 0 $input-focus-width rgba($color, .25);
+          box-shadow: 0 0 0 1px $body-bg, 0 0 0 $input-focus-width $color;
         }
       }
     }
@@ -139,7 +139,7 @@
 
       &:focus {
         ~ .custom-file-label {
-          box-shadow: 0 0 0 $input-focus-width rgba($color, .25);
+          box-shadow: 0 0 0 $input-focus-width $color;
         }
       }
     }
