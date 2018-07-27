@@ -1,0 +1,27 @@
+#main-menu {
+	li {
+		a {
+			color: $white; 
+		}
+	}
+}
+#page-wrapper {
+	background-color: $secondary;
+	#content {
+		max-width: 960px;
+		background-color: $white;
+		padding: 1em;
+	}
+}
+#wrapper-footer {
+	background-color: $primary;
+	.site-info {
+		color: $white;
+		a {
+			color: $white;
+		}
+		span {
+			color: $white;
+		}
+	}
+}
