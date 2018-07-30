@@ -49,3 +49,17 @@ h1, h2, h3, h4, h5, h6 {
 		}
 	}
 }
+/*Responsive*/
+
+@media (max-width: 768px) {
+	#page-wrapper, #index-wrapper, #single-wrapper {	
+		#content {
+			padding: 2em;
+			.img-mobile {
+				margin-right: 0em !important;
+		    	width: 100%;
+		    	margin-bottom: 5%;
+			}
+		}
+	}
+}

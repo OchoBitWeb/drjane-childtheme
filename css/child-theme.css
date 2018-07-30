@@ -10832,3 +10832,12 @@ h1, h2, h3, h4, h5, h6 {
       color: #ffffff; }
     #wrapper-footer .site-info span {
       color: #ffffff; }
+
+/*Responsive*/
+@media (max-width: 768px) {
+  #page-wrapper #content, #index-wrapper #content, #single-wrapper #content {
+    padding: 2em; }
+    #page-wrapper #content .img-mobile, #index-wrapper #content .img-mobile, #single-wrapper #content .img-mobile {
+      margin-right: 0em !important;
+      width: 100%;
+      margin-bottom: 5%; } }
